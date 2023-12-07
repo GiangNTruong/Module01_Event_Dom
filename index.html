@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+   <h1 id="heading" class>DOM event 1 </h1>
+   <h1 id="heading" class>DOM event 2 </h1>
+   <ul class="list-item1" >
+
+    <li onclick="getItem1()" class="item">item1</li>
+    <li ondblclick="getItem2()" class="item">item2</li>
+    <li class="item">item3</li>
+
+   </ul>
+   <ul class="list-item2" >
+    <li class="item">item1</li>
+    <li class="item">item2</li>
+    <li class="item">item3</li>
+
+   </ul>
+   <input type="text" />
+   <input type="date" />
+
+
+<input autofocus type="text" placeholder="Nhập tên" id="inputValue" />
+<input value="Nam" checked name="gender" type="radio" /> Nam
+ <input value="Nữ" name="gender" type="radio" /> Nữ
+<input value="Khác" name="gender" type="radio" /> Khác
+
+
+<label for = "onepiece">Select a onepiece : </label>
+<select id="onepiece">
+    <option value="">--Mời bạn nhập tên ---</option>
+    <option value="luffy">luffy</option>
+    <option value="zoro">zoro</option>
+    <option value="nami">nami</option>
+</select>
+<input value="dichoi" type="checkbox">Đi chơi
+<input value="muasam" type="checkbox">Mua sắm
+<input value="dabong" type="checkbox">Đá bóng
+<input value="choi" type="checkbox">CHơi
+<button id="btnSubmit">Submit</button>
+
+    <script src="./js/index.js"></script>
+</body>
+</html>
